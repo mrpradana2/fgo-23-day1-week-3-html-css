@@ -1,0 +1,16 @@
+/* this is the answer to number 9: custom variable declaration for use in external css */
+:root {
+    --background: antiquewhite;
+    --primary-color: #3D8D7A;
+}
+
+/* this is the answer to number 8: create default styling using external css */
+body {
+    background-color: var(--background);
+}
+
+/* this is the answer to number 10:  resize and colour text using external css*/
+p {
+    font-size: 25px;
+    color: var(--primary-color);
+}
