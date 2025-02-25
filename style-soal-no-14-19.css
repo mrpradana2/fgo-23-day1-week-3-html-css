@@ -1,0 +1,71 @@
+:root {
+    --background: antiquewhite;
+    --text-color: aliceblue;
+    --primary-color: #3D8D7A;
+    --secondary: #003092;
+}
+
+/* answer to question number 14 */
+button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    width: 75px;
+    height: 30px;
+    border: 1px solid slategray;
+    border-radius: 5px;
+    box-shadow: 1px 0 1px slategray;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+button:hover {
+    background-color: var(--text-color);
+    color: var(--primary-color);
+}
+
+/* answer to question number 16 */
+.box-relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    height: 50px;
+    width: 100px;
+    background-color: var(--secondary);
+    color: var(--text-color);
+    text-align: center;
+}
+
+main {
+    position: relative;
+    height: 500px;
+    background-color: var(--primary-color);
+    margin-top: 50px;
+}
+
+/* answer to question number 17 */
+main .box-main {
+    width: 150px;
+    height: 50px;
+    background-color: var(--secondary);
+    color: var(--text-color);
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* answer to question number 18 */
+header {
+    background-color: var(--secondary);
+    height: 50px;
+    position: sticky;
+    top: 25px;
+    margin-top: 4rem;
+}
+
+header h4 {
+    color: var(--text-color);
+    text-align: center;
+}
+
+/* answer to question number 19 */
